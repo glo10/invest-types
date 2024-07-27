@@ -1,4 +1,4 @@
-import { PartType } from "./part"
+import { PartType } from "../others/part"
 export interface IncomeType {
   revenue?: number
   ebitda?: number

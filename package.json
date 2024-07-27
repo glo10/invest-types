@@ -1,11 +1,12 @@
 {
-  "name": "types-invest-app",
-  "version": "1.0.0",
+  "name": "@glo10/types-invest",
+  "version": "2.0.1",
   "description": "all types of invest apps",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "typescript"
+    "build:r": "rm -rf ./dist && tsc",
+    "build": "tsc"
   },
   "author": "Glodie Tshimini",
   "license": "MIT",
